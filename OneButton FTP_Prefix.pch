@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OneButton FTP' target in the 'OneButton FTP' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,31 @@
+
+220: Microsoft FTP Service
+
+USER PubFTP
+331: Password required for PubFTP.
+
+PASS xxx
+230: User PubFTP logged in.
+
+PWD
+257: "/" is current directory.
+
+PWD
+257: "/" is current directory.
+
+PWD
+257: "/" is current directory.
+
+CWD .
+250: CWD command successful.
+
+PASV
+227: Entering Passive Mode (66,84,148,194,7,230).
+
+LIST -a
+125: Data connection already open; Transfer starting.
+
+226: Transfer complete.
+
+CWD /
+250: CWD command successful.

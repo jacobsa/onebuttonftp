@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                "ONB_remoteViewDoubleClicked" = id; 
+                addToQueue = id; 
+                changeDirectory = id; 
+                createDirectory = id; 
+                deleteFiles = id; 
+                dismissNewDirectory = id; 
+                dismissRename = id; 
+                doRename = id; 
+                downloadFile = id; 
+                newDirectory = id; 
+                refresh = id; 
+                removeFromQueue = id; 
+                rename = id; 
+                runPauseQueue = id; 
+            }; 
+            CLASS = ONBDaughterController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "ONB_connectionWindow" = NSWindow; 
+                "ONB_fileListingsController" = NSArrayController; 
+                "ONB_fileListingsTableView" = ONBRemoteView; 
+                "ONB_newDirectorySheet" = NSWindow; 
+                "ONB_queueItemsController" = NSArrayController; 
+                "ONB_queueTableView" = NSTableView; 
+                "ONB_renameSheet" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ONBQueueView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = ONBRemoteView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}
