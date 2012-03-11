@@ -12,6 +12,8 @@
 				<h2>Requires Mac OS X v. 10.4 or later.</h2>
 			</div>
 			<div id="maincontent">
+			<h2>OneButton FTP is no longer supported.</h2>
+				<p>Unfortunately, the author of OneButton FTP has begun a full-time job and no longer has time to actively maintain it.  The application can still be downloaded (and should work fine), but it isn't supported at this time. The <a href="https://github.com/jacobsa/onebuttonftp">source code</a> is also available.</p>
 			<h2>What is it?</h2>
 				<p>OneButton FTP is a graphical FTP client for Mac OS X with a strong emphasis on simplicity, drag and drop usability, and file queuing.  It allows you to easily transfer files to and from remote servers, such as the ones hosting your website, simply by dragging files to and from your computer.</p>
 				<p>To download the program, click the link to the right.  You will need a Mac running OS X 10.4 or later (including OS X 10.5 Leopard) to use OneButton FTP.</p>
