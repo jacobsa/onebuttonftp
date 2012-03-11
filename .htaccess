@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^about$ about.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^download$ download.php
+RewriteRule ^downloads$ downloads.php
+RewriteRule ^privacy$ privacy.php
+RewriteRule ^screenshots$ screenshots.php
+
+Options -Indexes
+
+php_flag register_globals Off
+php_flag magic_quotes_gpc Off
+php_flag magic_quotes_runtime Off
+php_flag magic_quotes_sybase Off

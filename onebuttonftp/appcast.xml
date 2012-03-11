@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>OneButton FTP Changelog</title>
+		<link>http://onebutton.org/onebuttonftp/appcast.xml</link>
+		<description>Most recent changes with links to updates.</description>
+		<language>en</language>
+		<item>
+			<title>Version 1.0</title>
+			<description>Initial release.</description>
+			<pubDate>Sun, 24 Feb 2008 23:30:00 -0800</pubDate>
+			<enclosure sparkle:version="73" sparkle:shortVersionString="1.0" url="http://onebutton.org/download" length="1462544" type="application/zip"/>
+		</item>
+	</channel>
+</rss>

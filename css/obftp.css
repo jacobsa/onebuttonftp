@@ -1,0 +1,251 @@
+/* base settings */
+
+body {
+	background: url(../images/bodybg.gif);
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-align: center;
+	font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+}
+
+img	{
+	border: 0px;
+}
+
+/* page holder */
+
+#wrapper	{
+	background: #fff url(../images/sidebg.gif) repeat;
+	margin: 0px auto;
+	padding: 0px;
+	width: 620px;
+	padding-bottom: 20px;
+}
+
+#header	{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#maincontent {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	line-height: 150%;
+}
+
+#sflogo {
+	padding-left: 0px;
+	padding-right: 13px;
+	padding-bottom: 3px;
+	padding-top: 0px;
+	text-align: right;
+}
+
+#download {
+	text-align: center;
+	margin-right:1.5em;
+	margin-left:1em;
+	margin-top:0.4em;
+	margin-bottom: 1em;
+	padding: 4px;
+	background: #FFFDE7;
+	border: 1px dotted #898989;
+	float: right;
+	width: 176px;
+}
+
+#download:hover {
+	background: #FCFCDA;
+}
+
+#universallogo {
+	text-align: center;
+	margin-right:1.5em;
+	margin-left:1em;
+	margin-top:0em;
+	margin-bottom: 0.3em;
+	padding: 4px;
+	background: #FFFFFF;
+	border: 1px dotted #898989;
+	float: right;
+	clear: right;
+	width: 176px;
+}
+
+/* menu stuff */
+
+#menu {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float:left;
+	width: 600px;
+	height: 29px;
+	background:#FFFFFF url("../images/menubg.jpg") repeat-x bottom;
+	font-size:10px;
+	line-height:normal;
+	display: block;
+}
+
+#menu ul {
+	margin:0px;
+	padding:0px 0px 0px;
+	list-style:none;
+}
+
+#menu ul li {
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu ul li a {
+	display: block;
+}
+
+#menu a {
+	float:left;
+	padding:7px 13px 8px 13px;
+	text-decoration: none;
+	color: #FFFFFF
+}
+  /* Commented Backslash Hack
+     hides rule from IE5-Mac \*/
+  #header a {float:none;}
+  /* End IE5-Mac hack */
+
+#menu a:hover {
+	color:#CBCBCB;
+	background-image: url("../images/menubg2.jpg");
+}
+
+/* Bottom menu stuff */
+
+#bottommenu {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 2px;
+	float:left;
+	width: 600px;
+	height: 18px;
+	background: #000000;
+	font-size:10px;
+	line-height:normal;
+	display: block;
+}
+
+#bottommenu h3 {
+	padding:0px;
+	margin:1px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#bottommenu a {
+	color: #F07522;
+}
+
+
+
+#resources a:link, #resources a:visited {
+	border-right: 1px solid #ccc;
+}
+
+#menubar ul li a:hover {
+	color: #000;
+	background: #ffffcc;
+}
+
+#menubar a:active {
+	background: #c60;
+	color: #fff;
+}
+
+/* typography - main content */
+
+#maincontent h1	{
+	margin-top: 0px;
+	font-size: 18px;          
+}
+
+#maincontent h2	{
+	margin-top: 15px; 
+	font-size: 17px;            
+}
+
+#maincontent {
+	font-size: 12px;               
+}
+
+#screenshots {
+	text-align: center;
+}
+
+/* typography - download box */
+
+#download h1 {
+	padding:0px;
+	margin:0px;
+	font-size: 12px; 
+	color: #41AC36;   
+}
+
+#download h2 {
+	padding:0px;
+	margin:1px;
+	color: #898989;
+	font-size: 9px;
+}
+
+#download h3 {
+	padding:0px;
+	margin:1px;
+	font-size: 9px;
+	color: #3883A6;
+}
+
+#download a:link, a:visited {
+	color: #3883A6;
+}
+
+/* typography - mac/universal logo box */
+
+#universallogo h2 {
+	padding:0px;
+	margin:1px;
+	color: #898989;
+	font-size: 9px;
+}
+
+#bottomwrapper    {
+   background: url("../images/bottomwrapper.png") no-repeat;
+   margin: 0px auto;
+   padding: 0px;
+   width: 620px;
+   padding-bottom: 20px;
+}
+
+
+
+/* hyperlink formatting */
+	
+a:link, a:visited {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #c30;
+}
+
+a:hover {
+	font-weight : bold; 
+	text-decoration : underline;
+	color: #999;
+}
+
+a:active {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #526968;
+}
